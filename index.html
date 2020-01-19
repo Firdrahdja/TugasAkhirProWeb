@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/theme.css">
+</head>
+<body>
+
+<div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Un-Released NFS Feature</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Need For Speed™</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Lost Need For Speed</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="lost1.html">Need For Speed Carbon (Beta)</a>
+                        </li>
+						<li>
+                            <a href="lost2.html">Need For Speed Undercover (Demo)</a>
+                        </li>
+                        <li>
+                            <a href="lost3.html">Need For Speed Most Wanted 2 (Scrapped)</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="about.html">About Need For Speed</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Coming Soon ...</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="soon.html">Need For Speed Underground (Map Exploration)</a>
+                        </li>
+                        <li>
+                            <a href="soon.html">Need For Speed Underground 2 (Beta-Demo Materials)</a>
+                        </li>
+                        <li>
+                            <a href="soon.html">Need For Speed Rivals (E3 Build)</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Menu</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="coptage.html">Concept Images</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <h2>Cancelled Project</h2><br>
+			<img src="Images\cancelled.jpg" alt="Icon" style="width:250px;"><p>
+            <p>Need For Speed is a 25 year old game franchise that's still going to this day but years back there were some NFS that got cancelled, Unreleased & Overhauled. Their concept is so interesting for example the cancelled direct sequel of Most Wanted 2005. In this FanWeb you can find some remnants of those cancelled NFS.</p>
+
+            <div class="line"></div>
+
+            <h2>Scrapped Concept</h2><br>
+			<img src="Images\concept.jpg" alt="Icon" style="width:500px;" class="center"><br>
+            <p>Those ideas were scrapped due to the one year development the publisher demanded. Because of the pressure from the publisher & deadline the developer had no choice but to scrapped some of the ideas that are going to be put in the game, remove some of the unfinished feature to prevent bugs & optimizing all the finished stuff thus leaving some bugs from the beta leftovers at the same time even though the developers already give their best.</p>
+        </div>
+    </div>
+	
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Need For Speed™ 1994 - 2019 </p>
+</div>
+
+<script>
+$(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+</script>
+
+</body>
+</html>
